@@ -19,7 +19,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v2
         with:
-          images: aruneko/texlive
+          images: yazakilab/texlive
           tags: |
             type=raw,value=latest
             type=schedule,pattern={{date 'YYYYMMDD'}}

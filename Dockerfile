@@ -1,6 +1,6 @@
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 
-ENV TEXLIVE_VERSION 2023
+ENV TEXLIVE_VERSION 2025
 ENV PATH $PATH:/usr/local/texlive/${TEXLIVE_VERSION}/bin/x86_64-linux
 
 WORKDIR /tmp
