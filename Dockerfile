@@ -38,6 +38,8 @@ RUN apt update \
       collection-langjapanese \
       latexmk \
       xetex \
+      algorithmicx \
+      algorithm2e \
  && mkdir -p \
       /usr/local/texlive/texmf-local/fonts/opentype/google/notosanscjk/ \
  && mkdir -p \
